@@ -1,0 +1,34 @@
+==================welcome==========================
+欢迎使用 LiteCraftLauncher！
+
+这是一个基于命令行的minecraft启动器
+首次启动时需要网络下载游戏文件，并确保已安装兼容的 Java
+
+==================命令行操作========================
+
+二、查看命令帮助
+    litecraft --help
+    litecraft versions --help
+    litecraft install --help
+    litecraft play --help
+三、列出 Minecraft 版本
+    litecraft versions
+显示官方可用版本及其类型。按类型筛选：
+    litecraft versions --type release
+    litecraft versions --type snapshot
+    litecraft versions --type old_beta
+    litecraft versions --type old_alpha
+四、安装 Minecraft 版本
+    litecraft install
+    litecraft install 1.21.1
+    litecraft install 1.21.1 --game-dir "D:\Games\Minecraft"
+省略版本号时安装最新正式版。--game-dir 可指定游戏目录；省略时默认使用 LiteCraftLauncher.exe 所在目录（源码运行时使用项目目录）。首次下载需要网络。
+五、启动 Minecraft
+    litecraft play --username Alex
+    litecraft play --username Alex --version 1.21.1
+    litecraft play --username Alex --version 1.21.1 --game-dir "D:\Games\Minecraft"
+--username 必填，用户名限 3-16 位英文字母、数字或下划线。省略 --version 时使用最新正式版；指定的版本尚未安装时会先下载。启动需要适用于该 Minecraft 版本的 Java，并且 java 命令须位于 PATH 中。
+六、交互命令模式
+进入模式后，在 litecraft> 提示符后输入命令（不需要重复输入 litecraft）：
+祝你玩得开心啦
+

@@ -1,0 +1,4 @@
+minecraft-launcher-lib>=7.1
+
+[build]
+pyinstaller>=6.0

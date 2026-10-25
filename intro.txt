@@ -1,0 +1,6 @@
+LiteCraftLauncher 使用说明
+
+启动方式：
+- 双击 LiteCraftLauncher.exe，选择离线用户后，选择本地已安装的 Minecraft 版本启动。
+- 启动器不会在此流程中自动下载版本；请先安装所需版本。
+

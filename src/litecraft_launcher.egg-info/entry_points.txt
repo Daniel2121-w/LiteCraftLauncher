@@ -1,0 +1,2 @@
+[console_scripts]
+litecraft = litecraft_launcher.cli:main
